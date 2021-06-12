@@ -2,6 +2,17 @@
 
 Put folder files in src folder
 
+## Review
+
+### Season
+![Season](https://github.com/vijaylaxmi26/React/blob/master/image/seasons.png)
+
+### Pics
+![Picture](https://github.com/vijaylaxmi26/React/blob/master/image/pics.png)
+
+### Videos
+![Videos](https://github.com/vijaylaxmi26/React/blob/master/image/videos.png)
+
 ## Perequisite
 
 Paste the link in public/index.html file
