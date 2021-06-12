@@ -1,5 +1,7 @@
 # React
 
+Put folder files in src folder
+
 ## Perequisite
 
 Paste the link in public/index.html file
@@ -21,4 +23,16 @@ create-react-app "app_name"
 
 ```
 
-For 
+For fake data
+
+```bash
+npm install --save faker
+```
+
+For Season and Video(as 3rd party package)
+
+```bash
+npm install --save axios
+```
+
+
