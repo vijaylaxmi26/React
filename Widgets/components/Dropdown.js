@@ -9,13 +9,13 @@ const Dropdown = ({label,options,selected, onSelectedChange}) => {
             if(ref.current.contains(event.target)){
                 return;
             }
-
             setOpen(false);
         }
-        document.body.addEventListener('click',onBodyClick);
 
-        return () =>{
-            document.body.removeEventListener('click',onBodyClick);
+        document.body.addEventListener('click',onBodyClick,{ capture: true });
+
+        return () => {
+            document.body.removeEventListener('click',onBodyClick,{ capture: true });
         };
         
     },[]);

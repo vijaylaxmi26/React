@@ -5,7 +5,7 @@ const Search = () =>{
     const [term, setTerm]= useState('');
     //console.log(term);
     const [results,setResults] = useState([]);
-    console.log(results);
+    //console.log(results);
 
     useEffect (() => {
        
