@@ -8,6 +8,8 @@ Pics:-https://pics-rosy.vercel.app
 
 Video:- https://videos-mu-peach.vercel.app
 
+https://thirsty-mccarthy-9b975a.netlify.app/
+
 Video-hooks:-https://videos-hooks-rust-alpha.vercel.app/
 
 
