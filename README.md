@@ -57,4 +57,10 @@ For Season and Video(as 3rd party package)
 npm install --save axios
 ```
 
+For songs
+
+```bash
+npm install --save redux react-redux
+```
+
 
