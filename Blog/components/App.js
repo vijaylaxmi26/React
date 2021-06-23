@@ -7,6 +7,6 @@ const App = () => {
             <PostList/>
         </div>
     );
-}
+};
 
 export default App;
