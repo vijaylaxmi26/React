@@ -10,6 +10,16 @@ export const fetchPostsAndUser = () => async (dispatch, getState) => {
     //console.log(userIds);
 
     userIds.forEach(id => dispatch(fetchUser(id)));
+
+    //alternative code
+    /*
+    _.chain(getState().posts)
+      .map('userId')
+      .uniq()
+      .forEach(id => dispatch(fetchUser(id)))
+      .value();
+
+    */
 };
 
 export const fetchPosts = () =>  async dispatch => {
