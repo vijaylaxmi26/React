@@ -37,6 +37,12 @@ Paste the link in public/index.html file
  
 ```
 
+### In stream public index file
+```bash
+ <script src="https://apis.google.com/js/api.js" ></script>
+
+```
+
 ## Installation
 
 Instal the [node js](https://nodejs.org/en/).
@@ -66,4 +72,13 @@ For songs
 npm install --save redux react-redux
 ```
 
+For blog
+```bash
+npm install --save redux react-redux axios redux-thunk
+```
+
+For Stream
+```bash
+npm install --save reacct-router-dom
+```
 
