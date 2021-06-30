@@ -80,5 +80,6 @@ npm install --save redux react-redux axios redux-thunk
 For Stream
 ```bash
 npm install --save reacct-router-dom
+npm install --save redux react-redux
 ```
 
