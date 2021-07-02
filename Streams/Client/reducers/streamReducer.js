@@ -6,16 +6,15 @@ import {
     DELETE_STREAM,
     EDIT_STREAM 
   } from '../actions/type';
-import streams from '../api/streams';
+ 
 
-
-//to convert array to object we use mapKeys(stream,"id")
+//to convert array to object we use mapK eys(stream,"id")
 export default (state = {}, action) => {
-    switch(action){
+    switch(action.type){
+        case FETCH_STREAMS:
+            return {...state, ..._.mapKeys(action.payload,'id')};
         case CREATE_STREAM:
             return { ...state, [action.payload.id] : action.payload };
-        case FETCH_STREAMS:
-             return {...state, ..._.mapKeys(action.payload,'id')};
         case FETCH_STREAM:
             return { ...state, [action.payload.id] : action.payload };
         case DELETE_STREAM:
@@ -25,4 +24,4 @@ export default (state = {}, action) => {
         default:
             return state;
     }
-}
+};
