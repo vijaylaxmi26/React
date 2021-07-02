@@ -89,6 +89,8 @@ npm install --save redux-form
 
 npm install --save axios redux-thunk
 
+npm install --save lodash
+
 -->api
 npm install --save json-server
 ```
