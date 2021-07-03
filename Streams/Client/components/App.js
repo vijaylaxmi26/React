@@ -1,17 +1,19 @@
 import React from 'react';
-import {BrowserRouter, Route} from 'react-router-dom';
+//BrowserRouter
+import {Router, Route} from 'react-router-dom';
 import StreamCreate from './streams/StreamCreate';
 import StreamDelete from './streams/StreamDelete';
 import StreamEdit from './streams/StreamEdit';
 import StreamList from './streams/StreamList';
 import StreamShow from './streams/StreamShow';
 import Header from './Header';
+import history from '../history';
 
 //185532324616-9md2o3f37mma3879slqg8tjttiasio1o.apps.googleusercontent.com
 const App = () => {
     return (
-       <div className="ui container">  
-         <BrowserRouter>
+       <div className="ui container"  >  
+         <Router history={history}>
             <Header/>
              <div>
                 <Route path="/" exact component={StreamList}/>
@@ -20,7 +22,7 @@ const App = () => {
                 <Route path="/streams/delete" exact component={StreamDelete}/>
                 <Route path="/streams/show" exact component={StreamShow}/>
              </div>
-         </BrowserRouter>
+         </Router>
        </div>
     );
 };
