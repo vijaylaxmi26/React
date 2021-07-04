@@ -76,22 +76,4 @@ For blog
 ```bash
 npm install --save redux react-redux axios redux-thunk
 ```
-
-For Stream
-```bash
-
--->client
-npm install --save reacct-router-dom
-
-npm install --save redux react-redux
-
-npm install --save redux-form
-
-npm install --save axios redux-thunk
-
-npm install --save lodash
-
--->api
-npm install --save json-server
-```
-
+ 
