@@ -9,6 +9,14 @@ class Button extends React.Component{
         return (
              <button className="ui button primary">{text}</button>
         );
+    // using consumer data 
+    //     return (
+    //         <button className="ui button primary"> 
+    //         <LanguageContext.Consumer>
+    //             {(value) => value ===  'english' ? 'Submit' : 'प्रस्तुत'}
+    //         </LanguageContext.Consumer>
+    //         </button>
+    //   );
     }
 }
 
